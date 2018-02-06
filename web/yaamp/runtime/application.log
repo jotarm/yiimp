@@ -1,0 +1,11 @@
+2018/01/31 22:53:23 [error] [php] error_log(/var/log/debug.log): failed to open stream: Permission denied (/var/web/yaamp/core/common/libUtil.php:122)
+Stack trace:
+#0 /var/web/yaamp/core/backend/rawcoins.php(29): updateRawCoin()
+#1 /var/web/yaamp/modules/thread/CronjobController.php(119): updateRawcoins()
+#2 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#3 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#5 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#6 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#7 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
