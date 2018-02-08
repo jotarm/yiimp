@@ -29,7 +29,7 @@ define('YIIMP_FIAT_ALTERNATIVE', 'EUR'); // USD is main
 
 define('YAAMP_USE_NICEHASH_API', false);
 
-define('YAAMP_BTCADDRESS', '1Auhps1mHZQpoX4mCcVL8odU81VakZQ6dR');
+define('YAAMP_BTCADDRESS', '38E5HkjH7MT6pcF6HYa7Kae82iivfuvZns');
 define('YAAMP_SITE_URL', 'yiimp.ccminer.org');
 define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); // change if your stratum server is on a different host
 define('YAAMP_SITE_NAME', 'YiiMP');
