@@ -7,7 +7,7 @@ define('YAAMP_BIN', '/var/bin');
 define('YAAMP_DBHOST', 'localhost');
 define('YAAMP_DBNAME', 'yiimpfrontend');
 define('YAAMP_DBUSER', 'panel');
-define('YAAMP_DBPASSWORD', 'Qe32ZVIxG1bQbQ18qBv6ti5FZ550RZdD');
+define('YAAMP_DBPASSWORD', '');
 define('YAAMP_PRODUCTION', true);
 define('YAAMP_RENTAL', true);
 define('YAAMP_LIMIT_ESTIMATE', false);
@@ -23,11 +23,11 @@ define('YIIMP_PUBLIC_BENCHMARK', false);
 define('YIIMP_FIAT_ALTERNATIVE', 'USD'); // USD is main
 define('YAAMP_USE_NICEHASH_API', false);
 define('YAAMP_BTCADDRESS', '3Q6vhQzsk1Rhqp2PxmrrdJijx8V7RtJ4qt');
-define('YAAMP_SITE_URL', 'pool.fastrdp.net');
+define('YAAMP_SITE_URL', '');
 define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); // change if your stratum server is on a different host
 define('YAAMP_SITE_NAME', 'Pool');
-define('YAAMP_ADMIN_EMAIL', 'staff@programasfullmega.com');
-define('YAAMP_ADMIN_IP', '195.154.232.3,83.43.220.62'); // samples: "80.236.118.26,90.234.221.11" or "10.0.0.1/8"
+define('YAAMP_ADMIN_EMAIL', '');
+define('YAAMP_ADMIN_IP', ''); // samples: "80.236.118.26,90.234.221.11" or "10.0.0.1/8"
 define('YAAMP_ADMIN_WEBCONSOLE', true);
 define('YAAMP_NOTIFY_NEW_COINS', true);
 define('YAAMP_DEFAULT_ALGO', 'scrypt');
